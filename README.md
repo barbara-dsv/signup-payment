@@ -1,50 +1,85 @@
-# React + TypeScript + Vite
+# 📱 Projeto Responsivo de Cadastro e Pagamento
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação frontend desenvolvida utilizando **Vite**, **React** e **TypeScript**. O design do projeto é baseado em um layout responsivo e foi inspirado no design que foi disponibilizado durante o curso de Escola de Jovens Programadores: Programação Web do Juventude Digital pelo professor Iago Mentes. A aplicação não possui backend e foca na interface do usuário (UI) para simular um fluxo de cadastro e pagamento.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vite**: Ferramenta de build para desenvolvimento rápido.
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **TypeScript**: Superconjunto de JavaScript que adiciona tipos estáticos ao código.
+- **CSS Modules**: Para estilização modular.
+- **React Icons**: Para uso de ícones.
 
-## Expanding the ESLint configuration
+## 🎨 Figma
+O design da interface pode ser encontrado no [Figma](https://www.figma.com/design/AdT9zUBvy5mz5HZkW21ThA/Signup-%2B-Payment-%5BDiscount4Share%5D-(Copy)?node-id=0-1&node-type=canvas&t=hAS7kBQs6lk3AnVj-0).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📱 Responsividade
 
-- Configure the top-level `parserOptions` property like this:
+A aplicação foi desenvolvida com o conceito **mobile-first**, garantindo que o layout seja adaptável para diferentes tamanhos de tela (de dispositivos móveis a desktops).
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🔧 Como rodar o projeto localmente
+
+### Pré-requisitos
+
+Antes de iniciar, você precisa ter o [Node.js](https://nodejs.org/en/) e o [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/) instalados na sua máquina.
+
+### Passos
+
+1. **Clone o repositório**:
+
+```bash
+git clone https://github.com/seu-usuario/seu-projeto.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+2. **Navegue até a pasta do projeto**:
+```bash
+cd seu-projeto
 ```
+
+3. **Instale as dependências**:
+```bash
+npm install
+# ou
+yarn install
+```
+
+4. **Inicie o servidor de desenvolvimento**:
+```bash
+npm run dev
+# ou
+yarn dev
+```
+
+A aplicação estará rodando em http://localhost:5173.
+
+## 📂 Estrutura do Projeto
+```bash
+/public         # Arquivos públicos (imagens, favicon, etc.)
+/src
+ ┣ /assets      # Imagens e arquivos estáticos
+ ┣ /components  # Componentes reutilizáveis
+ ┣ /pages       # Páginas do aplicativo
+ ┣ /styles      # Estilos globais e módulos CSS
+ ┣ App.tsx      # Componente principal
+ ┣ main.tsx     # Ponto de entrada da aplicação
+ ┗ index.html   # HTML principal
+```
+
+## 📄 Funcionalidades
+
+- Página de cadastro com validação de campos.
+- Interface de pagamento com simulação de desconto.
+- Totalmente responsivo, adaptado para mobile e desktop.
+- Utilização de ícones para melhorar a UX.
+
+## 🌐 Como contribuir
+
+Se quiser contribuir com este projeto, você pode:
+
+1. Fazer um **fork** do projeto.
+2. Criar uma **branch** para sua feature (`git checkout -b feature/nova-feature`).
+3. **Commitar** suas alterações (`git commit -m 'Adiciona nova feature'`).
+4. Subir para sua branch (`git push origin feature/nova-feature`).
+5. Abrir um **Pull Request**.
+
+
