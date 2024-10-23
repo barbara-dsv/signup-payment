@@ -1,13 +1,16 @@
 .header{
  display: flex;
  align-items: center;
- justify-content: space-between;
- padding: 0px 18px;
+
+ gap: 50px;
+ 
 }
 
 .horario{
     color: #000000;
     font-family: var(--fonte-principal-roboto);
+    font-weight: 600;
+    font-size: 17px;
 }
 
 .icones{
