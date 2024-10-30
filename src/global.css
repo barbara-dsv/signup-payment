@@ -1,6 +1,9 @@
 :root{
     --fonte-principal-roboto: "Roboto", sans-serif;
     --fonte-secundaria-raleway: "Raleway", sans-serif;
+    --fonte-formulario-lato: "Lato", sans-serif;
+
+    --cor-label-formulario: #E0E0E0;
 }
 
 * {
