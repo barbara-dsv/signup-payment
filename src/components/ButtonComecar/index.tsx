@@ -1,12 +1,22 @@
 import React from "react";
 import { PiArrowRightBold } from "react-icons/pi";
 import styles from './buttoncomecar.module.css'
+import { useNavigate } from "react-router-dom";
 
-export const ButtonComecar: React.FC = () =>{
+interface ButtonProps{
+    texto: string;
+}
+
+export const ButtonComecar: React.FC<ButtonProps> = ({texto}) =>{
+    const navigate = useNavigate()
+    function navegarParaOutraPagina() {
+    
+        navigate('/cadastro')
+    }
     
     return(
-        <button className={styles.btn_comecar}>
-            <p className={styles.comecar}>Começar</p>
+        <button className={styles.btn_comecar} onClick={navegarParaOutraPagina}>
+            <p className={styles.comecar}>{texto}</p>
             <PiArrowRightBold size={18} className={styles.setaDireita}/>
         </button>
     )
