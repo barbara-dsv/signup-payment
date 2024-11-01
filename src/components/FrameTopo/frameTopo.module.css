@@ -1,11 +1,15 @@
 .caixa{
     display: flex;
     align-items: center;
+    justify-content: center;
 
     padding: 16px  24px;
+    border-radius: 500px;
+    width: 50%;
+
     background-color:rgba(64, 142, 197, 0.2);
 
-    border-radius: 500px;
+   
 }
 
 .textoAlternativo{
