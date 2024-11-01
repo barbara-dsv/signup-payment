@@ -1,3 +1,4 @@
+import React from 'react'
 import { ButtonComecar } from '../../components/ButtonComecar'
 import { Header } from '../../components/Header'
 import styles from './home.module.css'
@@ -16,4 +17,4 @@ export const Home: React.FC = () =>{
         <img src="./Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
         </div>
     )
-}
+} 
