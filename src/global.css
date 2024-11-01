@@ -31,3 +31,8 @@ button{
     all: unset;
     cursor: pointer;
 }
+
+input:focus {
+    outline: none;
+    border: none; 
+}
