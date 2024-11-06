@@ -1,5 +1,5 @@
 import { FormEvent, useState } from 'react'
-import { ButtonComecar } from '../../components/ButtonComecar'
+import { Button } from '../../components/Button'
 import { FrameTopo } from '../../components/FrameTopo'
 import { Header } from '../../components/Header'
 import styles from './cadastro.module.css'
@@ -35,7 +35,7 @@ export const Cadastro: React.FC = () => {
         localStorage.setItem('usuarios', JSON.stringify(usuarios    ))
         alert('cadastrado')
 
-        navigate('depositoRapido')
+        navigate('/depositoRapido')
     }
 
     return(
@@ -60,7 +60,7 @@ export const Cadastro: React.FC = () => {
             <p className={styles.termo}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="">Morbi vitae eleifend</a> eu eleifend ac vel elit. </p>
             </div>
 
-            <ButtonComecar texto='Criar cadastro'/>
+            <Button texto='Criar cadastro'/>
             </form>
             </main>
             <img src="./Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
