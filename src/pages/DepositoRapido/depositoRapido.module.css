@@ -27,3 +27,61 @@
     line-height: 40px;
     text-align: left;
 }
+
+.valorInicial{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.valorInicial h2{
+    color: #FFFFFF;
+    font-family: var(--fonte-secundaria-raleway);
+    font-size: 48px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.valorInicial p{
+    font-family: var(--fonte-formulario-lato);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-label-formulario);
+}
+
+.opcoesDeValores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+
+.opcoesDeValores button{
+    border-radius: 100px;
+    border: 3px solid #FFFFFF;
+    background-color: none;
+    color: #FFFFFF;
+    width: 95px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 30px;
+
+    font-family: var(--fonte-secundaria-raleway);
+    font-size: 12px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.termo{
+    font-family: var(--fonte-formulario-lato);
+    font-size: 13px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
