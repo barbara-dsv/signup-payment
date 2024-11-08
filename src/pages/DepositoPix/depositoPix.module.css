@@ -1,0 +1,54 @@
+.container{
+    width: 100vw; 
+    height: 100vh; 
+    overflow: auto; 
+
+    background-image: url('./background-principal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.depositoPix{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 65px;
+}
+
+.descricaoPagina{
+    color: #FFFFFF;
+    font-family: var( --fonte-secundaria-raleway);
+    font-size: 32px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.opcao{
+    display: flex;
+    justify-content: space-around;
+}
+.opcao button{
+    font-family: var(--fonte-formulario-lato);
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.opcao button.selected {
+    font-weight: bold;
+}
+  
+.qrCodeContent,
+.pixCopiaColaContent {
+    display: flex;
+    justify-content: flex-start;
+    transition: transform 0.3s ease;
+}
+  
+.pixCopiaColaContent {
+    transform: translateX(50%);
+}

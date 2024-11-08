@@ -2,6 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route } from "react-rout
 import { Home } from "./pages/Home"
 import { Cadastro } from "./pages/Cadastro"
 import { DepositoRapido } from "./pages/DepositoRapido"
+import { DepositoPix } from "./pages/DepositoPix"
 
 export const routes = createBrowserRouter(
     createRoutesFromElements(
@@ -18,6 +19,7 @@ export const routes = createBrowserRouter(
             path="/depositoRapido"
             element={<DepositoRapido/>}
             />
+            <Route path="/depositoPix" element={<DepositoPix/>}/>
         </Route>
     )
  )
