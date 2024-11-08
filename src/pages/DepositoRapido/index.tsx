@@ -3,10 +3,15 @@ import styles from './depositoRapido.module.css'
 import { Header } from '../../components/Header'
 import { FrameTopo } from '../../components/FrameTopo'
 import { Button } from '../../components/Button'
+import { useNavigate } from 'react-router-dom'
 
 export const DepositoRapido: React.FC = () =>{
+    const navigate = useNavigate()
+    const navegarParaPaginaDeDepositoPix = () =>{
+      navigate('/depositoPix')
+    }
     
-    return(
+    return( 
       <div className={styles.container}>
         <Header/>
         <main className={styles.depositoRapido}>
@@ -25,7 +30,7 @@ export const DepositoRapido: React.FC = () =>{
 
         <footer className={styles.rodape}>
         <p className={styles.termo}><a href="">Morbi vitae eleifend</a> eu eleifend ac vel elit. </p>
-        <Button texto='Pagar com pix'/>
+        <Button texto='Pagar com pix' onClick={navegarParaPaginaDeDepositoPix}/>
         </footer>
        
 
