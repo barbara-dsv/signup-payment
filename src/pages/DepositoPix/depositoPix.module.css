@@ -28,10 +28,12 @@
     text-align: left;
 }
 
+
 .opcao{
     display: flex;
     justify-content: space-around;
 }
+
 .opcao button{
     font-family: var(--fonte-formulario-lato);
     font-size: 18px;
@@ -46,9 +48,75 @@
 .pixCopiaColaContent {
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 13px;
     transition: transform 0.3s ease;
 }
   
 .pixCopiaColaContent {
-    transform: translateX(50%);
+    transform: translateX(50%);   
+}
+
+.containerQrCode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 62px;
+    margin-bottom: 52px;
+}
+
+.slide{
+    height: 20%;
+    width: 50%;
+}
+
+.containerChavePix{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 48px;
+}
+
+.chavePix{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 23px;
+    width: 358px;
+    height: 90px;
+
+    background-color: #808085 ;
+
+    font-family: var(--fonte-formulario-lato);
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+}
+
+.copiarPix{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    padding: 16px 6px;
+    width: 358px;
+    height: auto;
+
+    background-color: #27207E;
+    color: #FFFFFF;
+
+    font-family: var(--fonte-formulario-lato);
+    font-feature-settings: 18px;
+    line-height: 24px;
+}
+
+.descricaoPix{
+    font-family: var(--fonte-formulario-lato);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-label-formulario);
+
+    margin-top: 40px;
 }
