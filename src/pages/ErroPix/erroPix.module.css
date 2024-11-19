@@ -1,0 +1,35 @@
+.container{
+    width: 100vw; 
+    height: 100vh; 
+    overflow: auto; 
+
+    background-image: url('./background-erro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.erroPix{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.msgErro{
+    font-family: var(--fonte-secundaria-raleway);
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+.descricaoErro{
+    font-family: var(--fonte-formulario-lato);
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-label-formulario);
+}
