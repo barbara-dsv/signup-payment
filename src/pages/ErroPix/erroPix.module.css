@@ -3,7 +3,7 @@
     height: 100vh; 
     overflow: auto; 
 
-    background-image: url('./background-erro.png');
+    background-image: url('/signup-payment/background-erro.png');
     background-repeat: no-repeat;
     background-size: cover;
 

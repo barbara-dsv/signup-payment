@@ -23,7 +23,7 @@ export const ErroPix: React.FC = () =>{
             </div>
             <Button texto="Tentar novamente" onClick={handleErro}/>
         </main>
-        <img src="./Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
+        <img src="/signup-payment/Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
     </div>
     )
 }

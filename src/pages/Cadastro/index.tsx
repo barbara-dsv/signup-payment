@@ -63,7 +63,7 @@ export const Cadastro: React.FC = () => {
             <Button texto='Criar cadastro'/>
             </form>
             </main>
-            <img src="./Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
+            <img src="/signup-payment/Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
         </div>
     )
 }

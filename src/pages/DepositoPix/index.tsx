@@ -45,11 +45,11 @@ export const DepositoPix: React.FC = () => {
           <div className={
               selectedOption === 'qrCode' ? styles.qrCodeContent : styles.pixCopiaColaContent
             }>
-          <img src="./Rectangle.png" alt="" className={styles.slide}/>
+          <img src="/signup-payment/Rectangle.png" alt="" className={styles.slide}/>
           </div>
           {selectedOption === 'qrCode' ? (
               <div className={styles.containerQrCode}>
-                <img src="./qrcode.png" alt="QR Code" />
+                <img src="/signup-payment/qrcode.png" alt="QR Code" />
               </div>  
             ) : (
               <div className={styles.containerChavePix}>
@@ -69,7 +69,7 @@ export const DepositoPix: React.FC = () => {
           <BtnAguardandoPagamento onClick={navegarParaPaginaDeResposta}/>
         </div>
       </main>
-      <img src="./Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
+      <img src="/signup-payment/Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
     </div>
   );
 };

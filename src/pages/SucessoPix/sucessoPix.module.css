@@ -3,7 +3,7 @@
     height: 100vh; 
     overflow: auto; 
 
-    background-image: url('./background-sucesso.png');
+    background-image: url('/signup-payment/background-sucesso.png');
     background-repeat: no-repeat;
     background-size: cover;
 

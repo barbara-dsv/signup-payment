@@ -12,7 +12,7 @@ export const SucessoPix: React.FC = () =>{
                 Morbi vitae eleifend eu eleifend ac vel elit malesuada fames. Semper luctus volutpat tempor arcu.
                 </p>
             </main>
-            <img src="./Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
+            <img src="/signup-payment/Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
         </div>
     )
 }

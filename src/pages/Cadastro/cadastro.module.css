@@ -3,7 +3,7 @@
     height: 100vh; 
     overflow: auto; 
 
-    background-image: url('./background-principal.png');
+    background-image: url('/signup-payment/background-principal.png');
     background-repeat: no-repeat;
     background-size: cover;
 

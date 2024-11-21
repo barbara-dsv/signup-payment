@@ -35,7 +35,7 @@ export const DepositoRapido: React.FC = () =>{
        
 
         </main>
-        <img src="./Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
+        <img src="/signup-payment/Home-Indicator.png" alt="incador de página" className={styles.indicador}/>
       </div>
     )
 }
