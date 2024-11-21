@@ -34,5 +34,6 @@ export const routes = createBrowserRouter(
             element={<ErroPix/>}
             />
         </Route>
-    )
+    ),
+     { basename: "/signup-payment" } 
  )

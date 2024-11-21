@@ -1,9 +1,8 @@
-/* Estilos gerais (para telas maiores) */
 .div {
     width: 100vw; 
     height: 100vh; 
     overflow: auto; 
-    background-image: url('./background-mulher.png');
+    background-image: url('/signup-payment/background-mulher.png');
     background-repeat: no-repeat;
     background-size: cover;
     
