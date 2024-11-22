@@ -1,7 +1,7 @@
-.container{
-    width: 100vw; 
-    height: 100vh; 
-    overflow: auto; 
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
 
     background-image: url('/signup-payment/background-principal.png');
     background-repeat: no-repeat;
@@ -13,28 +13,28 @@
     justify-content: space-between;
 }
 
-.depositoRapido{
+.depositoRapido {
     display: flex;
     flex-direction: column;
     padding: 20px;
     gap: 65px;
 }
 
-.descricaoPagina{
+.descricaoPagina {
     color: #FFFFFF;
-    font-family: var( --fonte-secundaria-raleway);
+    font-family: var(--fonte-secundaria-raleway);
     font-size: 32px;
     line-height: 40px;
     text-align: left;
 }
 
-.valorInicial{
+.valorInicial {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.valorInicial h2{
+.valorInicial h2 {
     color: #FFFFFF;
     font-family: var(--fonte-secundaria-raleway);
     font-size: 48px;
@@ -42,21 +42,21 @@
     font-weight: 600;
 }
 
-.valorInicial p{
+.valorInicial p {
     font-family: var(--fonte-formulario-lato);
     font-size: 16px;
     line-height: 24px;
     color: var(--cor-label-formulario);
 }
 
-.opcoesDeValores{
+.opcoesDeValores {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 21px;
 }
 
-.opcoesDeValores button{
+.opcoesDeValores button {
     border-radius: 100px;
     border: 3px solid #FFFFFF;
     background-color: none;
@@ -70,16 +70,23 @@
     font-size: 12px;
     line-height: 40px;
     font-weight: 600;
+
+    transition: background-color 0.7s, transform 0.3s;
 }
 
-.rodape{
+.opcoesDeValores button:hover {
+    background-color: #ccc;
+    transform: scale(1.1);
+}
+
+.rodape {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 100px;
 }
 
-.termo{
+.termo {
     font-family: var(--fonte-formulario-lato);
     font-size: 13px;
     line-height: 24px;

@@ -1,10 +1,10 @@
-.btnAguardandoPagamento{
+.btnAguardandoPagamento {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
     width: 90%;
-    
+
     color: #FFFFFF;
 
     border: 1px solid #FFFFFF;
@@ -21,4 +21,10 @@
     line-height: 24px;
     text-align: center;
     font-weight: 600;
+
+    transition: transform 0.3s;
+}
+
+.btnAguardandoPagamento:hover {
+    transform: scale(1.1);
 }

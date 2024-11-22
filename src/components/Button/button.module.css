@@ -1,10 +1,10 @@
-.btn_comecar{
+.btn_comecar {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
     width: 90%;
-    
+
     color: #FFFFFF;
 
     border: 1px solid #FFFFFF;
@@ -16,10 +16,14 @@
     margin-bottom: 40px;
     margin-top: 30px;
 
+    transition: transform 0.3s;
 }
 
+.btn_comecar:hover {
+    transform: scale(1.1);
+}
 
-.comecar{
+.comecar {
     font-family: var(--fonte-secundaria-raleway);
     font-size: 18px;
     line-height: 24px;
