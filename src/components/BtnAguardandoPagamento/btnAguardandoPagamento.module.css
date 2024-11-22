@@ -21,10 +21,4 @@
     line-height: 24px;
     text-align: center;
     font-weight: 600;
-
-    transition: transform 0.3s;
-}
-
-.btnAguardandoPagamento:hover {
-    transform: scale(1.1);
 }

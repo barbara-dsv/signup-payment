@@ -70,14 +70,9 @@
     font-size: 12px;
     line-height: 40px;
     font-weight: 600;
-
-    transition: background-color 0.7s, transform 0.3s;
 }
 
-.opcoesDeValores button:hover {
-    background-color: #ccc;
-    transform: scale(1.1);
-}
+
 
 .rodape {
     display: flex;

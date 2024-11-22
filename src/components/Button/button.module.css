@@ -16,12 +16,8 @@
     margin-bottom: 40px;
     margin-top: 30px;
 
-    transition: transform 0.3s;
 }
 
-.btn_comecar:hover {
-    transform: scale(1.1);
-}
 
 .comecar {
     font-family: var(--fonte-secundaria-raleway);
