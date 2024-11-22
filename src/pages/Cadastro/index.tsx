@@ -8,7 +8,7 @@ interface Usuario {
     nome: string;
     email: string;
     numero: string;
-    dataCadastro: number; // Propriedade para o timestamp do cadastro
+    dataCadastro: number; 
 }
 
 export const Cadastro: React.FC = () => {
@@ -19,7 +19,7 @@ export const Cadastro: React.FC = () => {
     const [numero, setNumero] = useState('');
     const [termoAceito, setTermoAceito] = useState(false);
 
-    const TEMPO_EXPIRACAO = 10 * 60 * 1000; // 10 minutos em milissegundos
+    const TEMPO_EXPIRACAO = 10 * 60 * 1000; 
 
     const getUsuarios = () => {
         const usuarios: Usuario[] = JSON.parse(localStorage.getItem('usuarios') || '[]');
@@ -34,7 +34,6 @@ export const Cadastro: React.FC = () => {
 
     useEffect(() => {
         getUsuarios();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleCadastro = (e: FormEvent<HTMLFormElement>) => {
