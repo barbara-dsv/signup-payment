@@ -56,13 +56,11 @@ A aplicação estará rodando em http://localhost:5173.
 ```bash
 /public         # Arquivos públicos (imagens, favicon, etc.)
 /src
- ┣ /assets      # Imagens e arquivos estáticos
  ┣ /components  # Componentes reutilizáveis
  ┣ /pages       # Páginas do aplicativo
- ┣ /styles      # Estilos globais e módulos CSS
- ┣ App.tsx      # Componente principal
+ ┣ global.tsx   # Estilização global
  ┣ main.tsx     # Ponto de entrada da aplicação
- ┗ index.html   # HTML principal
+ ┗ routes.html  # Rotas de navegação da aplicação
 ```
 
 ## 📄 Funcionalidades
