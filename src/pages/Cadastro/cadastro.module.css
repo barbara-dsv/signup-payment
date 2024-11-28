@@ -50,12 +50,13 @@ label{
 
 input{
     border-radius: 100px;
-    padding: 23px;
+    padding: 18px;
     background-color:rgba(255, 255, 255, 0.36);
     border: 2px solid #FFFFFF;
     color: rgba(255, 255, 255, 0.5);
 }
 
+  
 a{
     color: rgba(0, 255, 194, 0.7);
     text-decoration: underline;
